@@ -6,3 +6,4 @@
 2、String不可变是因为String对象内部的char[]是private的,并且没有提供setValue方法,所以在String类的外部无法修改String。  
 3、StringBuffer是线程安全的(底层采用synchronized)，而StringBuilder是非线程安全的。  
 ps：线程安全会带来额外的系统开销，所以StringBuilder的效率比StringBuffer高。  
+
